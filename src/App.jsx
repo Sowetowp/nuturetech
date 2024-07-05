@@ -4,7 +4,11 @@ function App() {
 
   return (
     <>
-      <Roueter
+      <Router>
+        <Routes>
+          <Route path='/' element={<}/>
+        </Routes>
+      </Router>
     </>
   )
 }
