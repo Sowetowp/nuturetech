@@ -15,7 +15,7 @@ const Navbar = () => {
                         <Link href="">Companies</Link>
                     </span>
                 </div>
-                <div>
+                <div style={{width:"50%", display:"flex", alignItems:"center", justifyContent:"end"}}>
                     <img src={bell} alt="" />
                     <img src={avi} alt="" />
                     <a href="">Post a Job</a>
