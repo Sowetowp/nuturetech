@@ -1,10 +1,10 @@
 import React from 'react'
-import logo from "../assets/Frame"
+import logo from "../assets/Frame 11.svg"
 const Navbar = () => {
     return (
         <>
             <header className='myHeader'>
-                <img src={} alt="" />
+                <img src={logo} alt="" />
             </header>
         </>
     )
