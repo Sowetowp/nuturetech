@@ -13,7 +13,9 @@ const Navbar = () => {
                         <Link href="">Companies</Link>
                     </span>
                 </div>
-
+                <div>
+                    
+                </div>
             </header>
         </>
     )
