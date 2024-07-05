@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
     return (
         <>
-            <header className='myHeader' style={{display:"flex", alignItems:"center"}}>
-                <div style={{}}>
+            <header className='myHeader' style={{display:"flex", alignItems:"center", justifyContent:"space-between"}}>
+                <div style={{width:"50%",}}>
                     <img src={logo} alt="" />
                     <span>
                         <Link href="">Home</Link>
