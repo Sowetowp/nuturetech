@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <>
             <header className='myHeader' style={{display:"flex", alignItems:"center", justifyContent:"space-between"}}>
-                <div style={{width:"50%",}}>
+                <div style={{width:"50%", display:"flex", alignItems:"center"}}>
                     <img src={logo} alt="" />
                     <span>
                         <Link href="">Home</Link>
