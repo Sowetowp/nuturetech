@@ -6,10 +6,10 @@ const Navbar = () => {
         <>
             <header className='myHeader'>
                 <div>
-                    
-                </div>
+
                 <img src={logo} alt="" />
             </header>
+                </div>
         </>
     )
 }
