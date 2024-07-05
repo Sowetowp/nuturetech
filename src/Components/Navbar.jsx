@@ -7,7 +7,10 @@ const Navbar = () => {
             <header className='myHeader'>
                 <div>
                     <img src={logo} alt="" />
-                    
+                    <span>
+                        <a href="">Home</a>
+                        <a href="">Companies</a>
+                    </span>
                 </div>
             </header>
         </>
