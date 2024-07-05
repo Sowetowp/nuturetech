@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div style={{width:"50%", display:"flex", alignItems:"center", justifyContent:"space-between"}}>
                     <img src={logo} alt="" />
                     <span style={{display:"flex", gap:"10px"}}>
-                        <Link href="" style={{textDecoration:"none", color:""}}>Home</Link>
+                        <Link href="" style={{textDecoration:"none", color:"#00E45B"}}>Home</Link>
                         <Link href="">Companies</Link>
                     </span>
                 </div>
