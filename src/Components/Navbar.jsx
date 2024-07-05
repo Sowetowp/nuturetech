@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
     return (
         <>
-            <header className='myHeader' style={{}}>
+            <header className='myHeader' style={{display:"flex", alignItems:"center"}}>
                 <div style={{}}>
                     <img src={logo} alt="" />
                     <span>
