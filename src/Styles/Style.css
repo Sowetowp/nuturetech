@@ -5,6 +5,9 @@
     padding-bottom: 20px;
     padding-right: 80px;
 }
+.gone{
+    display: flex;
+}
 @media (max-width: 780px) {
     .myHeader{
         padding-left: 5px;
