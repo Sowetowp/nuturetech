@@ -9,7 +9,7 @@ const Navbar = () => {
         <>
             <header className='myHeader' style={{display:"flex", alignItems:"center", justifyContent:"space-between"}}>
                 <div style={{width:"50%", display:"flex", alignItems:"center", justifyContent:"space-between"}}>
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="" style={{}}/>
                     <span style={{display:"flex", gap:"10px"}}>
                         <Link href="" style={{textDecoration:"none", color:"#00E45B", fontSize:"12px"}}>Home</Link>
                         <Link href="" style={{textDecoration:"none", color:"#005B00", fontSize:"12px"}}>Companies</Link>
