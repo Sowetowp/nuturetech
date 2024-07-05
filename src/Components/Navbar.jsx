@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div>
                     <img src={bell} alt="" />
                     <img src={avi} alt="" />
-                    
+                    <a href=""></a>
                 </div>
             </header>
         </>
