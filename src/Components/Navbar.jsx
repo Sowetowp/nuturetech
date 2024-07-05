@@ -14,7 +14,7 @@ const Navbar = () => {
                     </span>
                 </div>
                 <div>
-                    
+                    <img src="" alt="" />
                 </div>
             </header>
         </>
