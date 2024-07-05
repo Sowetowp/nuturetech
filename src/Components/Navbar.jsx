@@ -17,7 +17,7 @@ const Navbar = () => {
                 </div>
                 <div style={{width:"50%", display:"flex", alignItems:"center", justifyContent:"end"}}>
                     <img src={bell} alt="" style={{width:"10px"}}/>
-                    <img src={avi} alt="" />
+                    <img src={avi} alt="" style={{width:"20px"}}/>
                     <a href="">Post a Job</a>
                 </div>
             </header>
