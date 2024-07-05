@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div style={{width:"50%", display:"flex", alignItems:"center", justifyContent:"end"}}>
                     <img src={bell} alt="" style={{width:"10px"}}/>
                     <img src={avi} alt="" style={{width:"25px"}}/>
-                    <a href="" style={{fontSize:"12px", fontWeight:"600", }}>Post a Job</a>
+                    <a href="" style={{fontSize:"12px", fontWeight:"600", color:"white"}}>Post a Job</a>
                 </div>
             </header>
         </>
