@@ -15,7 +15,7 @@ const Navbar = () => {
                         <Link href="" style={{textDecoration:"none", color:"#005B00", fontSize:"12px"}}>Companies</Link>
                     </span>
                 </div>
-                <div style={{width:"50%", display:"flex", alignItems:"center", justifyContent:"end", gap:"20px"}}>
+                <div style={{width:"50%", display:"flex", alignItems:"center", justifyContent:"end", gap:"10px"}}>
                     <img src={bell} alt="" style={{width:"10px"}}/>
                     <img src={avi} alt="" style={{width:"25px"}}/>
                     <a href="" style={{fontSize:"12px", fontWeight:"600", color:"white", backgroundColor:"#005B00", paddingTop:"7px", paddingBottom:"7px", paddingLeft:"12px", paddingRight:"12px", textDecoration:"none", borderRadius:"10px"}}>Post a Job</a>
