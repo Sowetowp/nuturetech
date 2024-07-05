@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "../assets/Frame 11.svg"
 import bell from "../assets/Vector.svg"
-import avi from "../assets/Ellipse 2.svg"
+import avi from "../assets/Ellipse 2.png"
 import "../Styles/Style.css"
 import { Link } from 'react-router-dom'
 const Navbar = () => {
@@ -17,7 +17,8 @@ const Navbar = () => {
                 </div>
                 <div>
                     <img src={bell} alt="" />
-                    <img src={} alt="" />
+                    <img src={avi} alt="" />
+                    
                 </div>
             </header>
         </>
