@@ -10,7 +10,7 @@ const Navbar = () => {
             <header className='myHeader' style={{display:"flex", alignItems:"center", justifyContent:"space-between"}}>
                 <div style={{width:"50%", display:"flex", alignItems:"center", justifyContent:"space-between"}}>
                     <img src={logo} alt="" />
-                    <span>
+                    <span style={{display:"flex", gap:"10px"}}>
                         <Link href="">Home</Link>
                         <Link href="">Companies</Link>
                     </span>
