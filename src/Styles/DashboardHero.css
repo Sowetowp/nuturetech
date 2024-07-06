@@ -1,0 +1,64 @@
+.container {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+.contactInfo {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    
+}
+.face1 {
+    width: 40px;
+    height: 40px;
+}
+.face2{
+    display: flex;
+}
+.facename{
+    display: flex;
+}
+.contact{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:#005B00;
+    color: #ffffff
+    ;
+}
+.contactprofile {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.user{
+    color:#94A3B8;
+    ;
+}
+
+.hr-line {
+    height: 50px;
+    width: 2px;
+    background: #94A3B8;
+}
+.bblogo{
+    width: 40px;
+    height: 40px;
+}
+.writeup{
+    width: 770px;
+    height: 130px;
+}
+.bandu{
+    display: flex;
+}
+.bandc{
+    flex-direction: column;
+}
+.biography{
+    display: flex;
+    flex-direction: column;
+}
+.imb{
+    display: flex;
+}
