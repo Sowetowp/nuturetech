@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
     return (
         <>
-            <header className='myHeader' style={{display:"flex", alignItems:"center", justifyContent:"space-between"}}>
+            <header className='myHeader' style={{display:"flex", alignItems:"center", justifyContent:"space-between", backgroundColor:"#f8f8f8"}}>
                 <div style={{width:"50%", display:"flex", alignItems:"center", justifyContent:"space-between"}}>
                     <img src={logo} alt="" style={{width:"100px"}}/>
                     <span className='gone' style={{gap:"10px"}}>
-                        <Link href="" style={{textDecoration:"none", color:"#00E45B", fontSize:"12px"}}>Home</Link>
+                        <Link href="#" style={{textDecoration:"none", color:"#00E45B", fontSize:"12px"}}>Home</Link>
                         <Link href="" style={{textDecoration:"none", color:"#005B00", fontSize:"12px"}}>Companies</Link>
                     </span>
                 </div>

@@ -1,0 +1,53 @@
+
+.searchBar{
+    width: 660px;
+    
+}
+.search-white{
+    background-color: #F8F8F8;
+    width: 700px;
+    height: 53px;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Jobtitle-Search{
+    display: flex;
+    justify-content: space-between;
+    width: 182px;
+    align-items: center;
+    gap: 5px;
+}
+.LocationSearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 182px;
+    align-items: center;
+    gap: 5px;
+}
+.search-white{
+    display: flex;
+    justify-content: space-between;
+}
+.jobTitleText, .LocationText {
+    font-size: 16px;
+    color: #828282;
+    padding: 10px;
+    background-color: #F8F8F8;
+    height: 30px; 
+    
+}
+.SearchBtn{
+    background-color: #005B00;
+    color: white;
+    width: 125px;
+    height: 34px;
+    padding: 4px 14px;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 18px;
+    border: none;
+}
