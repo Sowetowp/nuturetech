@@ -1,0 +1,172 @@
+/* General styles */
+.background {
+    background-color: #b9b3b3;
+    padding-top: 1rem;
+    max-height: max-content;
+}
+
+.wholediv {
+    background-color: white;
+    width: 90%;
+    max-width: 1197px;
+    height: auto;
+    margin: 1rem auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.netfi {
+    color: #656262;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.APP {
+    color: #005B00;
+}
+
+.netdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.netdi {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Num {
+    background-color: #8C8D8E;
+}
+
+.Avatar {
+    display: flex;
+    align-items: center;
+}
+
+.listing {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list {
+    color: #656262;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.border {
+    border: 1px solid #F8FAFC;
+    margin-top: 40px;
+}
+
+.describe {
+    margin-top: 25px;
+}
+
+.des {
+    margin-top: 20px;
+}
+
+.h5 {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-align: left;
+    color: #656262;
+}
+
+.res {
+    margin-top: 30px;
+}
+
+.respo {
+    margin-top: 20px;
+    gap: 50px;
+    color: #656262;
+}
+
+/* Custom bullets */
+ul.custom-bullets {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 1em; /* Add padding to align custom bullets */
+}
+
+ul.custom-bullets li {
+    position: relative;
+    padding-left: 1.5em; /* Add space for custom bullets */
+    margin-bottom: 0.5em; /* Add space between list items */
+}
+
+ul.custom-bullets li::before {
+    content: '\2022'; /* Unicode character for bullet */
+    font-size: 2em; /* Increase size of bullet */
+    color: #005B00; /* Change bullet color */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .wholediv {
+        width: 95%;
+        margin: 1rem auto;
+    }
+
+    .listing {
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .netdiv {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .netdi {
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .listing {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .wholediv {
+        padding: 15px;
+    }
+
+    .netfi {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .list {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .h5 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
