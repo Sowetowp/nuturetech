@@ -1,8 +1,8 @@
 /* General styles */
 .background {
-    background-color: #b9b3b3;
+    background-color: rgb(214, 214, 214);
     padding-top: 1rem;
-    max-height: max-content;
+    min-height: 100vh;
 }
 
 .wholediv {
@@ -131,7 +131,11 @@ ul.custom-bullets li::before {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
+    .background {
+        padding-top: 1rem; /* Adjust padding for medium screens */
+    }
+    
     .netdiv {
         flex-direction: column;
         align-items: flex-start;
@@ -150,23 +154,32 @@ ul.custom-bullets li::before {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+    .background {
+        padding-top: 0.5rem; /* Adjust padding for small screens */
+    }
+
     .wholediv {
         padding: 15px;
     }
 
-    .netfi {
+    .netfi, .list, .h5 {
         font-size: 14px;
         line-height: 20px;
     }
+}
 
-    .list {
-        font-size: 14px;
-        line-height: 20px;
+@media (max-width: 576px) {
+    .background {
+        padding-top: 0.25rem; /* Adjust padding for extra small screens */
     }
 
-    .h5 {
-        font-size: 14px;
-        line-height: 20px;
+    .wholediv {
+        padding: 10px;
+    }
+
+    .netfi, .list, .h5 {
+        font-size: 12px;
+        line-height: 18px;
     }
 }
