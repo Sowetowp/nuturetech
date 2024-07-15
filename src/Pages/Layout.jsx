@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+import React from 'react'
+import HeroSection from '../Components/HeroSection'
+import Navbar1 from '../Components/Navbar1'
+import CompanyLogoSection from '../Components/CompanyLogoSection'
+import JobCategories from '../Components/JobCategories'
+import CreateProfile from '../Components/CreateProfile'
+import NewsLetter from '../Components/NewsLetter'
+import Footer from '../Components/Footer'
+
+const Layout = () => {
+    return (
+        <>
+            <Navbar1/>
+            <HeroSection/>
+            <CompanyLogoSection/>
+            <JobCategories/>
+            <CreateProfile/>
+            <NewsLetter/>
+            <Footer/>
+            
+        </>
+    )
+}
+=======
 import React from "react";
 import Navbar from "../Components/Navbar";
 import face_logo from "../assets/facelogo.png";
@@ -117,5 +142,6 @@ const Layout = () => {
     </>
   );
 };
+>>>>>>> af00efff2d7af15a4a82a498845819e9b3c4b341
 
 export default Layout;

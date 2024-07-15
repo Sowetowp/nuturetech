@@ -1,0 +1,41 @@
+.NewsLetter{
+    width: 100%;
+    height: 221px;
+    padding: 48px 100px;
+    background-color: #f8f8f8;
+}
+.NewsLetter-inner{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.NewsLetter h2 {
+    font-size: 27px;
+    font-weight: 700;
+    color: #6d6d6d;
+    text-align: center;
+}
+.EmailInput{
+    width: 700px;
+    height: 64px;
+    padding: 16px 16px 16px 32px;
+    border-radius: 30px;
+    background-color: #eaeaea;
+    font-size: 24px;
+    font-weight: 400;
+    color: #656262;
+    border: none;
+    border-style: none;
+    position: relative;
+    z-index: 0;
+}
+.EmailInput :focus{
+    border: 2px solid #dfdfdf;
+}
+.NewsLetterBtn{
+    position: absolute;
+    z-index: 1;
+    margin-right: 200px;
+}
