@@ -1,4 +1,4 @@
- 
+
 import React from 'react'
 import HeroSection from '../Components/HeroSection'
 import Navbar1 from '../Components/Navbar1'

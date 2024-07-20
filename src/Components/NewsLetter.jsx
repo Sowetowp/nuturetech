@@ -18,7 +18,6 @@ const NewsLetter = () => {
     setError('Please enter a valid email address.');
     return;
   }
-
   const EmailSubscription = `Subscribing ${email} to newsletter`;
 
   // form reset and success confirmation
@@ -26,8 +25,6 @@ const NewsLetter = () => {
   setSubscribed(true);
   setError('');
 }
-
-
   return (
     <div className='NewsLetter'>
       <div className='NewsLetter-inner'>
