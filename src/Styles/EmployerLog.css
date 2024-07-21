@@ -1,0 +1,274 @@
+/* General styles */
+.netflix-employer-bg {
+    background-image: url('../assets/Group 21.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #EAEAEA;
+    padding-bottom: 2rem;
+}
+
+.netflix-border,
+.google-border,
+.meta-border,
+.figma-border,
+.twitter-border {
+    width: 90%;
+    max-width: 1052px;
+    margin: 2rem auto 0;
+    padding: 10px 30px;
+}
+
+.netflix-list,
+.google-list,
+.meta-list,
+.figma-list,
+.twitter-list {
+    color: #001302;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.netflix-span-list,
+.google-span-list,
+.meta-span-list,
+.figma-span-list,
+.twitter-span-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.netflix-design,
+.google-design,
+.meta-design,
+.figma-design,
+.twitter-design {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.netflix-active,
+.google-active,
+.meta-active,
+.figma-closed,
+.twitter-closed {
+    color: #005B00;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.figma-closed,
+.twitter-closed {
+    color: #FF6767;
+}
+
+.netflix-h1,
+.google-h1,
+.meta-h1,
+.figma-h1,
+.twitter-h1 {
+    color: #001302;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.netflix-h2,
+.google-h2,
+.meta-h2,
+.figma-h2,
+.twitter-h2 {
+    color: #656262;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.netflix-span1,
+.google-span1,
+.meta-span1,
+.figma-span1,
+.twitter-span1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.netflix-h3,
+.google-h3,
+.meta-h3,
+.figma-h3,
+.twitter-h3 {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #001302;
+    background-color: #F0F0F5;
+    padding: 5px 3px;
+    border-radius: 100px;
+    width: 90px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.netflix-span2,
+.google-span2,
+.meta-span2,
+.figma-span2,
+.twitter-span2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 2.5rem;
+}
+
+.netflix-h4,
+.google-h4,
+.meta-h4,
+.figma-h4,
+.twitter-h4 {
+    color: #001302;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-top: 1rem;
+    text-align: right;
+}
+
+.netflix-h5,
+.google-h5,
+.meta-h5,
+.figma-h5,
+.twitter-h5 {
+    color: #656262;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-top: 5rem;
+}
+
+.all-hr {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 7px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+
+    .netflix-border,
+    .google-border,
+    .meta-border,
+    .figma-border,
+    .twitter-border {
+        width: 95%;
+        margin: 2rem auto;
+    }
+
+    .netflix-design,
+    .google-design,
+    .meta-design,
+    .figma-design,
+    .twitter-design {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .netflix-design,
+    .google-design,
+    .meta-design,
+    .figma-design,
+    .twitter-design {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .netflix-span-list,
+    .google-span-list,
+    .meta-span-list,
+    .figma-span-list,
+    .twitter-span-list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .netflix-border,
+    .google-border,
+    .meta-border,
+    .figma-border,
+    .twitter-border {
+        padding: 15px;
+    }
+
+    .netflix-list,
+    .google-list,
+    .meta-list,
+    .figma-list,
+    .twitter-list {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .netflix-h1,
+    .google-h1,
+    .meta-h1,
+    .figma-h1,
+    .twitter-h1 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .netflix-h2,
+    .google-h2,
+    .meta-h2,
+    .figma-h2,
+    .twitter-h2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .netflix-h4,
+    .google-h4,
+    .meta-h4,
+    .figma-h4,
+    .twitter-h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .netflix-h5,
+    .google-h5,
+    .meta-h5,
+    .figma-h5,
+    .twitter-h5 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+.netflix-{
+display: flex;
+gap: 30px;
+justify-content: center;
+}
+.neflix-span2{
+    display: flex;
+   
+}

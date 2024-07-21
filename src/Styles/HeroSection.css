@@ -1,0 +1,57 @@
+.Hero{
+    display: flex;
+    justify-content: space-between;
+    width: 100% ;
+    background-color: #EAEAEA;
+}
+.Hero-right{
+    margin-left: 80px;
+}
+.Hero-right h1{
+
+    color: #001302;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    width: 475px;
+    margin-top: 50px;
+}
+.Hero-right p{
+    color: #8C8D8E;
+    margin-top: 30px;
+}
+.hero-subs{
+    display: flex;
+    justify-content: space-between;
+   margin-bottom: 20px;
+    width: 553px;
+    font-size: 16px;
+}
+.hero-subs p{
+    color: #001302;
+}
+.SearchBar{
+    
+}
+.manImage{
+    width: 724px;
+    height: 574px;
+    margin-bottom: 30px;
+    margin-left: -130px;
+}
+.card1 {
+    width: 130px;
+    height: 133px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.card2{
+    width: 141px;
+    height: 124px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 400px;
+    margin-left: 30px;
+}
